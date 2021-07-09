@@ -1,0 +1,126 @@
+body{
+    position: relative;
+}
+
+.main
+{
+   
+    margin: 0px auto;
+    background-color:rgba(0, 0, 0, 0.792156862745098);
+    height: 2000px;
+    width: 600px;
+}
+
+.head
+{
+
+    width:233px;
+    height:52px;
+    font-family:'Arial Black', 'Arial', sans-serif;
+    font-weight:900;
+    font-style:normal;
+    font-size:40px;
+    letter-spacing:2.9px;
+    color:rgba(221, 94, 86, 0.996078431372549);
+    line-height:52px;
+    border-width:0px;
+    position: absolute;
+  left:500px;
+  top:30px;
+  display:flex;
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+  word-wrap:break-word;
+  text-transform:none;
+}
+
+.head1
+{
+  position: absolute;
+  width:200px;
+  height:18px;
+  font-weight:700;
+  font-style:normal;
+  left:504px;
+  top:100px;
+  display:flex;
+  font-family:'Arial Bold', 'Arial', sans-serif;
+  color:rgba(255, 255, 255, 0.725490196078431);
+  align-self:flex-start;
+  padding:0px 0px 0px 0px;
+  box-sizing:border-box;
+  width:100%;
+  border-width:0px;
+  word-wrap:break-word;
+  text-transform:none;
+}
+
+.flex-container,.fourth-row
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    position: absolute;
+    
+}
+
+.flex-left,.fflex-left
+{
+    padding: 10px;
+    flex: 50%;
+    color: white;
+    position: absolute;
+    top: 180px;
+    height: 100px;
+    left: 80px;
+    width: 200px;
+    height: 230px;
+    background-color: tomato;
+}
+
+
+.flex-right,.fflex-right
+{
+    padding: 10px;
+    flex: 50%;
+    color: white;
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    width:200px;
+    height: 230px;
+    background-color: yellow;
+}
+
+.second-row
+{
+    color: white;
+    position: absolute;
+    top: 460px;
+    left: 402px;
+    width:442px;
+    height: 140px;
+    background-color: yellow;
+}
+
+.third-row
+{
+    color: white;
+    position: absolute;
+    top: 630px;
+    left: 402px;
+    width:442px;
+    height: 200px;
+    background-color: rgb(255, 0, 0);
+}
+
+.fflex-left,.fflex-right
+{
+  top: 860px;
+  background-color: rgba(0, 0, 255, 0.438);
+}
+
+
